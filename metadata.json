@@ -1,0 +1,35 @@
+{
+  "name": "tmokane-bacula_9",
+  "version": "0.1.0",
+  "author": "tmokane",
+  "summary": "Install bacula version 9 ",
+  "license": "Apache-2.0",
+  "source": "",
+  "project_page": "http://bacula.us/compilation/",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "16.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0 < 6.0.0"
+    }
+  ],
+  "pdk-version": "1.2.0",
+  "template-url": "file:///opt/puppetlabs/pdk/share/cache/pdk-module-template.git",
+  "template-ref": "heads/master-0-g3f7d5ce"
+}
